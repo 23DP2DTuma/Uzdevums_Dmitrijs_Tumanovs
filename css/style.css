@@ -536,7 +536,7 @@ header .navbar {
 
 
 /* Mobile optimization for 375px screens */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 460px) {
     /* General adjustments */
     .section-title {
         padding: 40px 0 60px;
@@ -599,90 +599,5 @@ header .navbar {
     .download-section .social-link-list .social-link {
         padding: 8px 16px;
         font-size: var(--font-size-s);
-    }
-}
-
-@media screen and (max-width: 425px) {
-    /* General adjustments */
-    .section-title {
-        padding: 50px 0 70px;
-        font-size: var(--font-size-l);
-    }
-    
-    /* Download section optimizations */
-    .download-section {
-        padding: 150px 0;
-    }
-    
-    .download-section .section-title {
-        margin: -120px 0 -15px;
-    }
-    
-    .download-section .download-details,
-    .download-section .download-details-2 {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
-    
-    .download-section .download-details .text,
-    .download-section .download-details-2 .text {
-        font-size: var(--font-size-n);
-        line-height: 1.6;
-        margin: 40px 0 25px;
-    }
-    
-    /* Button optimization */
-    .download-section .social-link-list {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .download-section .social-link-list .social-link {
-        padding: 10px 20px;
-        font-size: var(--font-size-n);
-        text-align: center;
-        display: inline-block;
-        white-space: nowrap;
-    }
-    
-    /* User Guide section optimizations */
-    .user-section {
-        padding: 40px 0 70px;
-    }
-    
-    .user-section .section-title {
-        margin: -40px 0 -10px;
-    }
-    
-    .user-section .slider-wrapper {
-        margin: 0 10px 30px;
-    }
-    
-    .user-section .guide {
-        padding: 80px 20px;
-    }
-    
-    .user-section .guide .name {
-        font-size: var(--font-size-n);
-        margin-bottom: 12px;
-    }
-    
-    .user-section .guide .feedback {
-        font-size: var(--font-size-s);
-        line-height: 1.5;
-        max-width: 100%;
-        overflow-wrap: break-word;
-    }
-    
-    /* Make sure pagination is visible */
-    .user-section .swiper-pagination {
-        bottom: 10px !important;
-    }
-    
-    /* Adjust navigation arrows if visible at this size */
-    .user-section .swiper-slides-button {
-        margin-top: -30px;
     }
 }
