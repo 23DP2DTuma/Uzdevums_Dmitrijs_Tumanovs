@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale1">
+    <title>Car Website</title>
+    <!-- Linking font awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Linking swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header / navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">GDAPARK</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Downloading" class="nav-link">System Downloading</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Guide" class="nav-link">User Guide</a>
+                </li>
+            </ul>
+
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">Best cars system</h2>
+                    <h3 class="subtitle">Make your work better with our car park console app!</h3>
+                    <p class="description">Welcome to our car park world, where every can add his beautifull car.</p>
+                    
+                    <div class="buttons">
+                        <a href="#Downloading" class="button add-now">Add Now</a>
+                        <a href="#about" class="button contact-us">About System</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="images/freepik__background__13099.png" alt="" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- About section -->
+         <section class="about-section" id="about">
+         <div class="section-content">
+            <div class="about-image-wrapper">
+                <img src="images/Park2.jpg" alt="About" class="about-image">
+            </div>
+            <div class="about-details">
+                <h2 class="section-title">About App</h2>
+                <p class="text">The Car Management System is a Java-based application for efficiently organizing your vehicle inventory. With this user-friendly console application, you can easily add, view, sort, filter, edit, and delete car records. Track important vehicle information including make, model, color, year, and price in a structured database. The intuitive menu system makes navigation simple, while built-in data validation ensures accuracy. Perfect for car dealerships, collectors, or anyone needing to manage vehicle information. All data is automatically saved to a CSV file for easy backup and transfer.</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+         </div>
+        </section>
+
+         <!-- Download section -->
+         <section class="download-section" id="Downloading">
+            <h2 class="section-title">Download System</h2>
+            <div class="section-content">
+               <div class="download-image-wrapper">
+                   <img src="images/view-3d-car.png" alt="About" class="download-image">
+               </div>
+               <div class="download-details-2">
+                <p class="text">Our lightweight Java app lets you instantly add, sort, filter and manage all your vehicles with just a few keystrokes. Perfect for dealerships, collectors, or hobbyists get organized in minutes! Keep track of makes, models, prices and more with our simple yet powerful console interface. Download now and revolutionize how you manage your automotive data!</p>
+               </div>
+               <div class="download-details">
+                <h3 class="text">Button To Download</h3>
+                   <div class="social-link-list">
+                       <a href="https://github.com/23DP2DTuma/GDApark/archive/refs/heads/main.zip" class="social-link">Click To Download</a>
+                   </div>
+               </div>
+            </div>
+        </section>
+
+        <!-- User guide section -->
+         <section class="user-section" id="Guide">
+            <h2 class="section-title">User Guide</h2>
+            <div class="section-content">
+                <div class="slider-conteiner swiper">
+                    <div class="slider-wrapper">
+                        <ul class="guide-list swiper-wrapper">
+                            <li class="guide swiper-slide">
+                                <h3 class="name">1# "Start"</h3>
+                                <i class="feedback">To start the Car Management System, open your terminal or command prompt, navigate to the folder containing the program files, and run the command java MasinuSistema. The system will try to load existing data from the masinas.csv file or start with an empty list if the file doesn't exist.</i>    
+                            </li>
+                            <li class="guide swiper-slide">
+                                <h3 class="name">2# "Main Menu"</h3>
+                                <i class="feedback">When the system starts, you'll see the main menu with seven options. To select an option, simply type the corresponding number (1-7) and press Enter.</i>  
+                            </li>
+                            <li class="guide swiper-slide">
+                                <h3 class="name">3# "Adding a Car"</h3>
+                                <i class="feedback">To add a new car, select option 1 from the main menu. You'll need to enter the car's details when prompted: first the make (letters only), then the model (letters and numbers), color (letters only), year (between 1850 and 2025), and price (a positive number). After entering all information, the system will automatically assign an ID to the car and add it to the list.</i>
+                            </li>
+                            <li class="guide swiper-slide">
+                                <h3 class="name">4# "Viewing Cars"</h3>
+                                <i class="feedback">To view all cars in the system, select option 2 from the main menu. If there are cars in the system, they will be displayed in a table format sorted by ID in ascending order. If there are no cars, you'll see a message indicating that the list is empty.</i>
+                            </li>
+                            <li class="guide swiper-slide">
+                                <h3 class="name">5# "Sorting Cars"</h3>
+                                <i class="feedback">To sort the cars, select option 3 from the main menu. You'll be prompted to choose a sorting method by entering a number from 1 to 8. You can sort by ID (ascending or descending), price (ascending or descending), year (ascending or descending), make (alphabetically), or model (alphabetically). After choosing a sorting method, the system will display the sorted list of cars.</i>
+                            </li>
+                            <li class="guide swiper-slide">
+                                <h3 class="name">6# "Filtering Cars"</h3>
+                                <i class="feedback">To filter cars based on specific criteria, select option 4 from the main menu. You'll be prompted to choose a filtering method by entering a number from 1 to 5. You can filter by price range, make, color, year range, or ID range. Depending on your choice, you'll need to enter additional criteria such as minimum and maximum values for ranges or exact names for make and color. The system will then display only the cars that match your criteria.</i>
+                            </li>
+                            <li class="guide swiper-slide">
+                                <h3 class="name">7# "Editing a Car"</h3>
+                                <i class="feedback">To edit an existing car, select option 5 from the main menu. The system will display all cars and ask you to enter the ID of the car you want to edit. After entering the ID, you'll see the current information and be prompted to enter new values. For text fields (make, model, color), simply press Enter to keep the existing value or type a new one. For numeric fields (year, price), enter 0 to keep the existing value or enter a new number. The system will update the car with your changes.</i>
+                            </li>
+                            <li class="guide swiper-slide">
+                                <h3 class="name">8# "Deleting a Car"</h3>
+                                <i class="feedback">To delete a car, select option 6 from the main menu. The system will display all cars and ask you to enter the ID of the car you want to delete. After entering the ID, you'll see the car's information and be asked to confirm the deletion. Type "j" to confirm or "n" to cancel. If confirmed, the car will be removed from the list.</i>
+                            </li>
+                            <li class="guide swiper-slide">
+                                <h3 class="name">9# "Saving and Exiting"</h3>
+                                <i class="feedback">To save your changes and exit the program, select option 7 from the main menu. The system will save all car data to the masinas.csv file and terminate. Note that changes are only saved when you use this option – if you close the program any other way, your changes might not be saved.</i>
+                            </li>
+                            <li class="guide swiper-slide">
+                                <h3 class="name">10# "Data Validation"</h3>
+                                <i class="feedback">The system applies validation rules to ensure data integrity. Make and color must contain only letters, model can contain letters and numbers, year must be between 1850 and 2025, and price must be a positive number. If you enter invalid data, the system will prompt you to enter it again.</i>
+                            </li>
+                        </ul>
+
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-slides-button swiper-button-prev"></div>
+                        <div class="swiper-slides-button swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Footer section -->
+          <section class="footer-section">
+            <div class="section-content">
+            <p class="copyright-text">© 2025 GDAPARK System</p>
+
+            <div class="social-link-list">
+                <a href="#" class="social-link"><i class="fa-brands
+                fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands
+                fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands
+                fa-tiktok"></i></a>
+            </div>
+
+            <p class="policy-text">
+                <a href="" class="policy-link">Privacy policy</a>
+                <span class="seperator">-</span>
+                <a href="" class="policy-link">Refund policy</a>
+            </p>
+            </div>
+          </section>
+    </main>
+
+    <!-- Linking swiper script-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom script-->
+    <script src="js/script.js"></script>
+</body>
+</html>
